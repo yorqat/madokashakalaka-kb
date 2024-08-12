@@ -37,10 +37,6 @@ This is the only command you need to run in development. It will start the follo
 - typechecking (both widget and iframe code)
 - vite dev server (for iframe development)
 
-### `npm run build`
+## Workflow
 
-This runs bundling with minification turned on. You should run this command before releasing your widget.
-
-### `npm run test`
-
-This runs typechecking and makes sure that your widget builds without errors.
+Everytime you update [defaultHands](/widget-src/code.tsx), Make sure to right click and reset state on the widget
