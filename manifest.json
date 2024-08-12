@@ -1,0 +1,12 @@
+{
+  "name": "madokashakalaka-kb",
+  "id": "1401228983186671244",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "permissions": [],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "widgetApi": "1.0.0",
+  "documentAccess": "dynamic-page"
+}
