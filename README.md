@@ -19,12 +19,6 @@ npm run dev
 
 ## Organization
 
-This widget uses:
-
-- [esbuild](https://esbuild.github.io/) for bundling
-- [vite](https://vitejs.dev/) and [react](https://reactjs.org/) for the iframe
-- [typescript](https://www.typescriptlang.org/) for typechecking
-
 | file/folder   | description                                                                      |
 | ------------- | -------------------------------------------------------------------------------- |
 | manifest.json | The widget's [manifest.json](https://www.figma.com/widget-docs/widget-manifest/) |
@@ -41,8 +35,12 @@ This is the only command you need to run in development. It will start the follo
 
 ## Workflow
 
-Everytime you update [defaultHands](/widget-src/code.tsx#L138), Make sure to right click and reset state on the widget
+Everytime you update [`defaultHands`](/widget-src/code.tsx#L138), Make sure to right click and reset state on the widget to reflect your changes
 
 ## Export
 
-Pages are in A4 dimensions, suitable for print. To export to PDF, CTRL + click a page to select. Scroll down right side panel and hit export to PDF
+Pages are in A4 dimensions, suitable for print so to export to PDF:
+
+1. CTRL + click a page to select
+2. Scroll down right side panel 
+3. Hit export to PDF
