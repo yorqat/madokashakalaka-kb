@@ -1,6 +1,8 @@
-# @figma/create-widget
+# Madokashakalaka keyboard guide generator
 
-This repo was created by @figma/create-widget
+![Left hand](/screenshots/Left%20hand%20(A4).png)
+![Right hand](/screenshots/Right%20hand%20(A4).png)
+![Keyboard Guide](/screenshots/Keyboard%20guide.png)
 
 ## Getting started
 
@@ -40,3 +42,7 @@ This is the only command you need to run in development. It will start the follo
 ## Workflow
 
 Everytime you update [defaultHands](/widget-src/code.tsx), Make sure to right click and reset state on the widget
+
+## Export
+
+Pages are in A4 dimensions, suitable for print. To export to PDF, CTRL + click a page to select. Scroll down right side panel and hit export to PDF
