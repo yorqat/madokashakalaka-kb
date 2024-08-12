@@ -6,14 +6,14 @@
 
 ## Getting started
 
-Run the following command to start building your widget
+Run the following command to start updating the widget
 
 ```bash
 npm run dev
 ```
 
 1. Log in to your account and open the Figma desktop app
-2. You can open any existing FigJam document or create a new one.
+2. Open any document or create a new one.
 3. Go to Menu > Widgets > Development > "Import widget from manifest..."
 4. Select the manifest.json in this folder
 
@@ -27,11 +27,7 @@ npm run dev
 
 ### `npm run dev`
 
-This is the only command you need to run in development. It will start the following processes for you:
-
-- bundling (both widget and iframe code)
-- typechecking (both widget and iframe code)
-- vite dev server (for iframe development)
+This is the only command you need to run in development
 
 ## Workflow
 
