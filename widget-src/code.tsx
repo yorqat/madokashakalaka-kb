@@ -746,7 +746,7 @@ function KeyboardGuide() {
       name="Keyboard Guide"
     >
       {/* Context Menu */}
-      <AutoLayout
+      {/* <AutoLayout
         name="Control Panel"
         {...a4}
         fill={'#FFF'}
@@ -943,7 +943,7 @@ function KeyboardGuide() {
             )
           })}
         </AutoLayout>
-      </AutoLayout>
+      </AutoLayout> */}
 
       {/* Left hand reference */}
       <AutoLayout
