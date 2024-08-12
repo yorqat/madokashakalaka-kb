@@ -41,7 +41,7 @@ This is the only command you need to run in development. It will start the follo
 
 ## Workflow
 
-Everytime you update [defaultHands](/widget-src/code.tsx#L316), Make sure to right click and reset state on the widget
+Everytime you update [defaultHands](/widget-src/code.tsx#L138), Make sure to right click and reset state on the widget
 
 ## Export
 
